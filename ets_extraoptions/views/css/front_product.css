@@ -1,0 +1,218 @@
+
+.list-attribute-custom .ets_input_group {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 9px;
+    position: relative;
+    margin-top: -1px;
+}
+.list-attribute-custom label {
+    text-align: left;
+    cursor: pointer;
+    font-size: 13px;
+}
+.block-product-attribute-custom {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.block-product-attribute-custom .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.list-attribute-custom span.desc svg {
+    width: 16px;
+    vertical-align: middle;
+    height: 16px;
+    fill: #777;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 16px;
+    float: left;
+}
+.list-attribute-custom span.required:after {
+    display: none!important;
+}
+.list-attribute-custom h5 {
+    margin-top: 15px;
+}
+.list-attribute-custom span.required:before {
+    content: "*";
+    color: #d70909;
+}
+.list-attribute-custom .ets_input_group input {
+    cursor: pointer;
+    min-width: 15px;
+    min-height: 15px;
+    vertical-align: -2px;
+}
+.list-attribute-custom .ets_input_group input:disabled, .list-attribute-custom .ets_input_group input[disabled="disabled"] {
+    cursor: not-allowed;
+}
+.list-attribute-custom span.desc {
+    position: relative;
+    text-align: center;
+    margin-left: 1px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ets_input_group ~ span.required {
+    margin-left: -9px;
+    margin-right: -2px;
+}
+.list-attribute-custom span.desc.hover .content,
+.list-attribute-custom span.desc.hover:before,
+.list-attribute-custom span.desc.hover:after {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+.block-product-attribute-custom .list-attribute-custom .checkbox {
+    display: block;
+}
+span.attribute_price_save {
+    color: #999;
+    font-style: italic;
+    margin-left: 2px;
+}
+.attribute-custom-price span.price {
+    font-weight: 600;
+}
+.block-product-attribute-custom .list-attribute-custom .checkbox {
+    display: block;
+}
+.block-product-attribute-custom .list-attribute-custom .checkbox > label {
+    padding-left: 4px;
+    margin-left: -4px;
+    display: inline-block;
+    width: auto;
+    padding-right: 5px;
+}
+.block-product-attribute-custom .list-attribute-custom .checkbox.required.error > label span,
+.block-product-attribute-custom .list-attribute-custom .checkbox.required.error > label {
+    color: #d70909;
+}
+.checkbox.required.error .ets_input_check {
+    border-color: #d70909;
+}
+input[type="checkbox"]:checked + .ets_input_check {
+    background: #2fb5d2;
+    border-color: #2fb5d2;
+}
+.ets_input_check {
+    border: 2px solid #777;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: relative;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    border-radius: 2px;
+}
+
+.list-attribute-custom .ets_input_check:before {
+    top: -1px;
+    left: 0px;
+    position: absolute;
+    content: '✔';
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+    width: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all 0.1s;
+}
+.list-attribute-custom .ets_input_group input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    opacity: 0!important;
+    margin: 0!important;
+}
+.list-attribute-custom .product-discount {
+    margin-left: 2px;
+    display:inline-block;
+}
+span.desc .content {
+    background: #333;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    bottom: 100%;
+    position: absolute;
+    min-width: 250px;
+    transform: translateX(-50%);
+    left: 50%;
+    opacity: 0;
+    z-index: 100;
+    margin-bottom: 8px;
+    visibility: hidden;
+    pointer-events: none;
+    display: none;
+}
+.list-attribute-custom .has-discount .discount {
+    font-size: inherit;
+    padding: 1px 5px;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.list-attribute-custom .current-price {
+    display: inline-block;
+}
+.list-attribute-custom .product-discount .regular-price {
+    margin-right: 5px;
+}
+.list-attribute-custom span.desc:after,
+.list-attribute-custom span.desc:before {
+    content: "";
+    bottom: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    left: 50%;
+    visibility: hidden;
+    pointer-events: none;
+    display: none;
+    margin-left: -4px;
+    margin-bottom: 4px;
+    width: 8px;
+    height: 8px;
+    background: #333;
+    transform: rotate(45deg);
+}
+.list-attribute-custom span.desc:hover svg {
+    fill: #333;
+}
+.block-product-attribute-custom h2 {
+    text-transform: uppercase;
+}
+.block-product-attribute-custom .attribute-custom-price {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.ets_input_check svg {
+    display: none;
+}
+.list-attribute-custom .ets_input_group input[type="checkbox"]:checked + .ets_input_check svg {
+    display: inline-block;
+    fill: #ffffff;
+}
+.ets_input_check svg {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    width: 12px;
+}
+@media (max-width: 767px){
+    span.desc .content{
+        max-width: 200px;
+        min-width: 200px;
+    }
+}

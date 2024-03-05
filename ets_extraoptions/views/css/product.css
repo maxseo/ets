@@ -1,0 +1,506 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.help-block {
+    color: #959595;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 12px;
+}
+#ets_extraoptions > h3 {
+    background: #eee;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.panel {
+    background-color: #fff;
+    border: 1px solid #d3d8db;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+i.process-icon-save:before {
+    content: "\F0C7";
+    font-family: 'FontAwesome';
+}
+.help-block {
+    clear: both;
+    width: 100%;
+    text-align: left;
+}
+.list-attribute-custom h5 {
+    margin-top: 15px;
+}
+.list-table-product-attributes h2 {
+    font-size: 16px;
+}
+.form-group.hide {
+    display: none!important;
+}
+.id_ets_eto_attr_group select {
+    font-size: 13px;
+    border: 1px solid #ccc;
+    height: 34px;
+    border-radius: 3px;
+    min-width: 160px;
+    padding: 0 5px;
+    outline: none!important;
+}
+.panel-heading {
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 40px;
+    margin: -20px -16px 15px;
+    padding: 0 0 0 5px;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+select#id_ets_eto_attr_group {
+    width: auto!important;
+    min-width: 200px;
+}
+.panel.ets_extraoptions-panel.list-attribute-groups {
+    border-radius: 0!important;
+}
+.list-table-product-attributes h2 {
+    font-size: 20px;
+}
+.ets_eto_popup label.control-label {
+    margin-bottom: 0;
+    padding-top: 7px;
+    text-align: right;
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+}
+.panel-footer .btn {
+    background-color: #fff;
+    color: #363a41;
+    background-image: none;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 8px;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.configuration-product-attribute .ui-sortable tr td.name:hover {
+    cursor: grab!important;
+}
+.panel-footer i {
+    font-style: normal;
+    position: relative;
+}
+.panel-footer .btn i[class^=process-icon-] {
+    font-size: 28px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: transparent;
+    background-size: 26px;
+    background-position: 50%;
+    line-height: 1;
+    font-weight: normal;
+}
+.ets_eto_popup .input-group,
+#ets_extraoptions .input-group {
+    border-collapse: separate;
+    display: table;
+    position: relative;
+}
+.ets_eto_popup .input-group input,
+#ets_extraoptions .input-group input {
+    background-color: #f5f8f9;
+    background-image: none;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    float: left;
+    display: table-cell;
+    font-size: 12px;
+    height: 31px;
+    margin-right: -1px;
+    width: auto;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    line-height: 1.42857;
+    padding: 6px 8px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.configuration-product-attribute .price select {
+    min-width: 150px;
+}
+.list-ca_attribute_product td.name:before {
+    content: attr(data-before);
+    width: 16px;
+    height: 2px;
+    background: #999;
+    display: inline-block;
+    vertical-align: 3px;
+    margin-right: 10px;
+    box-shadow: 0 -5px 0 0 #999, 0 5px 0 0 #999;
+}
+.list-ca_attribute_product tr:hover {
+    cursor: pointer;
+}
+.ets_eto_popup .input-group span.input-group-addon,
+#ets_extraoptions .input-group span.input-group-addon {
+    background-color: #f5f8f9;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    min-height: 30px;
+    line-height: 30px;
+    height: 31px;
+    float: left;
+    padding: 0 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.ets_eto_popup textarea {
+    background-color: #f5f8f9;
+    background-image: none;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    display: block;
+    font-size: 12px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 6px 8px;
+    min-height: 100px;
+    width: 100%;
+    outline: none;
+}
+.ets_eto_popup .translatable-field:not(.form-group) {
+    width: 100%;
+}
+.ets_eto_popup .form-group .translatable-field.form-group {
+    width: calc(100% + 30px);
+}
+.col-lg-2,.col-lg-9,.col-lg-3 {
+    float: left;
+}
+.ets_eto_popup .switch {
+    display: block;
+    height: 26px;
+    position: relative;
+}
+.ets_eto_popup .prestashop-switch {
+    margin-top: 3px;
+    background-color: #eee;
+    border-radius: 3px;
+    color: #333;
+    text-align: center;
+    -webkit-box-shadow: rgb(0 0 0 / 15%) 0 1px 4px 1px inset;
+    box-shadow: inset 0 1px 4px 1px rgb(0 0 0 / 15%);
+}
+.ets_eto_popup .switch input {
+    position: absolute;
+    opacity: 0;
+}
+.ets_eto_popup .prestashop-switch label {
+    text-transform: uppercase;
+    color: #bbb;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+.custom-price {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ets_eto_popup .switch label {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    text-shadow: none;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    float: left;
+    line-height: 26px;
+}
+.ets_eto_popup .prestashop-switch input:checked+label {
+    color: #fff;
+}
+.ets_eto_popup .switch a {
+    -webkit-box-shadow: "#1B7088" 0 -1px 0 inset;
+    background-color: #2eacce;
+    border: 1px solid #279cbb;
+    box-shadow: inset 0 -1px 0 "#1B7088";
+    color: #fff;
+    height: 100%;
+    left: 0;
+        border-radius: 3px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+}
+.ets_eto_popup .switch input:last-of-type:checked~a {
+    -webkit-box-shadow: "#5C5C5C" 0 -1px 0 inset;
+    background-color: #e08f95;
+    border: 1px solid #ca6f6f;
+    box-shadow: inset 0 -1px 0 "#5C5C5C";
+    left: 50%;
+}
+.ets_eto_popup .fixed-width-lg {
+    width: 160px;
+}
+.ets_eto_popup .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.no-record.not_items_found p {
+    margin-bottom: 0;
+}
+.ets_eto_popup input[type="text"] {
+    background-color: #f5f8f9;
+    background-image: none;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    display: block;
+    font-size: 12px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 6px 8px;
+    width: 100%;
+    outline: none;
+}
+/*panel*/
+.panel-footer {
+    background-color: #fcfdfe;
+    border-color: #eee;
+    height: auto;
+    margin: 15px -20px -20px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top: 1px solid #ddd;
+    padding: 10px 15px;
+    clear: both;
+}
+.list-attribute-custom .ets_input_group {
+    display: inline-block;
+    vertical-align: middle;
+}
+.list-attribute-custom label {
+    text-align: left;
+    cursor: pointer;
+}
+.block-product-attribute-custom {
+    display: flex;
+    width: 100%;
+}
+.block-product-attribute-custom .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.dropdown-menu>li>a {
+    clear: both;
+    color: #333;
+    display: block;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 5px 15px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.dropdown-menu {
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    display: none;
+    float: left;
+    font-size: 12px;
+    left: 0;
+    list-style: none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: #00aff0;
+    color: #fff;
+    text-decoration: none;
+}
+.table td.dragHandle .dragGroup {
+    border-radius: 5px;
+    cursor: move;
+    font-size: 14px;
+    padding: 4px 4px 4px 20px;
+    position: relative;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+}
+.action-disabled span.action_field_content {
+    color: #c50c0c;
+}
+.table td.dragHandle .dragGroup:before {
+    display: block;
+    height: 16px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    width: 16px;
+    content: "\F047";
+    font-family: 'FontAwesome';
+}
+.table td.dragHandle .dragGroup .positions {
+    -webkit-box-shadow: rgb(0 0 0 / 20%) 0 1px 3px inset;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgb(0 0 0 / 20%);
+    color: #aaa;
+    display: inline-block;
+    padding: 0 5px;
+    text-shadow: #fff 1px 1px;
+    width: 43px;
+}
+.btn-group-action button.dropdown-toggle {
+    font-size: 0;
+    min-width: auto;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+.btn-group-action button.dropdown-toggle::after {
+    margin: 0;
+}
+.action-enabled span.action_field_content {
+    color: #32b806;
+}
+.ets_eto_popup .input-group input, #ets_extraoptions .input-group input {
+    width: 135px;
+}
+.ets_extraoptions-panel .table-responsive {
+    overflow: visible;
+}
+a.btn.btn-default.link_edit {
+    background: #fff;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+    border: 1px solid #ddd;
+    margin-right: 1px;
+}
+a.btn.btn-default.link_edit:hover {
+    background: #25b9d7;
+    color: #fff;
+}
+.configuration-product-attribute .price {
+    width: 25%;
+}
+.product-page #ets_extraoptions .hide {
+    display: none!important;
+}
+.process-icon-cancel:before {
+     content: "\f00d";
+     font-family: Fontawesome,sans-serif;
+ }
+.link_edit.loading,
+#ets_eto_attribute_form_submit_btn.loading i{
+    color: transparent!important;
+}
+.link_edit.loading i:after,
+.ets_extraoptions-panel .link_edit.loading i:after,
+#ets_eto_attribute_form_submit_btn.loading i:after{
+    content: "";;
+    position: absolute;;
+    border-top: 1px solid #666;;
+    border-bottom: 1px solid #666;;
+    border-left: 1px solid transparent;;
+    border-right: 1px solid transparent;;
+    width: 18px;;
+    height: 18px;;
+    border-radius: 50%;;
+    left: 50%;;
+    margin-left: -9px;;
+    top: 50%;
+    margin-top: -9px;
+    animation: loading 0.5s infinite linear;;
+    -webkit-animation: loading 0.5s infinite linear;
+}
+.link_edit.loading:hover i:after,
+#ets_eto_attribute_form_submit_btn:hover i:after{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+a.btn.btn-default.link_edit i {
+    position: static!important;;
+}
+#ets_eto_attribute_form_submit_btn.loading i:after {
+    top: 10px;
+}
+button#ets_eto_attribute_form_submit_btn:hover,
+button.btn.tbn-cancel:hover {
+    background-color: #2eacce;
+    color: #fff;
+}
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes loading {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+.configuration-product-attribute th.name {
+    padding-left: 32px;
+}
+
+
+
+
