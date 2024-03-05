@@ -1,0 +1,176 @@
+.block-onepagecheckout .title-heading,.ets_pr_gift_products .card-block {
+  border-top: 3px solid ETS_OPC_DESIGN_COLOR1;
+}
+body #form_ets_onepagecheckout.loading:before,
+body .block-onepagecheckout.loading:before{
+    border-top-color: ETS_OPC_DESIGN_COLOR1;
+    border-bottom-color: ETS_OPC_DESIGN_COLOR1;
+}
+#form_ets_onepagecheckout .btn-primary,
+body .box_more_fee_shipping .box_total_cart {
+  background-color: ETS_OPC_DESIGN_COLOR1;
+}
+#form_ets_onepagecheckout .product-price,
+.product-line-info .current-price .price {
+  color: ETS_OPC_DESIGN_COLOR1;
+}
+#form_ets_onepagecheckout .product-line-grid-right .cart-line-product-actions,
+#form_ets_onepagecheckout .product-line-grid-right .product-price {
+  color: ETS_OPC_DESIGN_COLOR1;
+}
+.block-onepagecheckout .card-block.cart-summary-totals .cart-summary-line.cart-total .label,
+.block-onepagecheckout .card-block.cart-summary-totals .cart-summary-line.cart-total .value {
+  color: ETS_OPC_DESIGN_COLOR1;
+}
+.block-onepagecheckout .title-heading svg{
+    fill: ETS_OPC_DESIGN_COLOR2!important;
+}
+.block-onepagecheckout .title-heading,
+#ets_onepagecheckout .block-onepagecheckout .product-line-info.product_info_name a.label,
+#invoice-addresses .title, #delivery-addresses .title,
+.block-onepagecheckout .product-line-info.product_info_name .label{
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+.ets_pr_gift_products .card-block h2{
+    color: ETS_OPC_DESIGN_COLOR2!important;
+}
+#form_ets_onepagecheckout .block-promo .promo-input::-webkit-input-placeholder,
+.block-onepagecheckout input.form-control::-webkit-input-placeholder,
+.block-onepagecheckout textarea.form-control::-webkit-input-placeholder { /* Edge */
+    color: ETS_OPC_DESIGN_COLOR2!important;
+}
+
+#form_ets_onepagecheckout .block-promo .promo-input:-ms-input-placeholder,
+.block-onepagecheckout input.form-control:-ms-input-placeholder,
+.block-onepagecheckout textarea.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: ETS_OPC_DESIGN_COLOR2!important;
+}
+
+#form_ets_onepagecheckout .block-promo .promo-input::placeholder,
+.block-onepagecheckout input.form-control::placeholder,
+.block-onepagecheckout textarea.form-control::placeholder {
+    color: ETS_OPC_DESIGN_COLOR2!important;
+}
+.type-checkout-options li label input:checked + span, .type-checkout-options li label:hover span {
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+.block-onepagecheckout .custom-radio input[type="radio"]:checked + span {
+  background-color: ETS_OPC_DESIGN_COLOR2;
+}
+#form_ets_onepagecheckout input:checked + .ets_checkbox:before{
+    border-color: ETS_OPC_DESIGN_COLOR2;
+}
+.block-onepagecheckout .form-group.row.p_0 label {
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+#ets_onepagecheckout button.add_new_address {
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+.block-onepagecheckout .promo-code .ets_icon_scices:after {
+    color: ETS_OPC_DESIGN_COLOR2;
+}
+#form_ets_onepagecheckout a.remove-from-cart i:before {
+    color: ETS_OPC_DESIGN_COLOR2;
+}
+.block-onepagecheckout .input-group.bootstrap-touchspin input.js-cart-line-product-quantity {
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+.block-onepagecheckout .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down::before {
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+.block-onepagecheckout .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up::before {
+  color: ETS_OPC_DESIGN_COLOR2;
+}
+.ets_opc_select:before{ color: ETS_OPC_DESIGN_COLOR3 }
+.type-checkout-options li label,
+#form_ets_onepagecheckout .row.delivery-option span.carrier-delay {
+    color: ETS_OPC_DESIGN_COLOR3;
+}
+.onepagecheckout-left .custom-radio {
+  border: 1px solid ETS_OPC_DESIGN_COLOR3;
+}
+.block-onepagecheckout ul.cart-items,
+.custom-file-label,
+.block-onepagecheckout.block-additional-info input.form-control + .input-group-addon:not(:first-child),
+.block-onepagecheckout.block-additional-info input.form-control, 
+.ps-number-spinner .ps-number-up:hover:before,
+.ps-number-spinner .ps-number-down:hover:before,
+.block-onepagecheckout.block-additional-info select{
+    border-color: ETS_OPC_DESIGN_COLOR3;
+}
+.block-onepagecheckout,.ets_pr_gift_products .cart-gift-container,
+.block-onepagecheckout.block-displayReassurance .blockreassurance_product,
+.block-onepagecheckout.block-displayReassurance #block-reassurance,
+body#checkout #gift_message,
+.box_more_fee_shipping .box_shipping_free {
+  border: 1px solid ETS_OPC_DESIGN_COLOR3!important;
+}
+.block-onepagecheckout .title-heading,.ets_pr_gift_products .card-block,
+#invoice-addresses .title, #delivery-addresses .title,
+.block-onepagecheckout.block-displayReassurance #block-reassurance > ul > li:not(:last-child) {
+  border-bottom: 1px solid ETS_OPC_DESIGN_COLOR3;
+}
+.block-onepagecheckout.block-address div#delivery-addresses input.form-control,
+.block-onepagecheckout.block-address div#invoice-addresses input.form-control,
+.block-onepagecheckout.block-address div#delivery-addresses select.form-control,
+.block-onepagecheckout.block-address div#invoice-addresses select.form-control,
+.block-onepagecheckout .shipping_address_form,
+.type-checkout-option input.form-control,
+.block-onepagecheckout textarea#delivery_message,
+.block-onepagecheckout.block-additional-info textarea.form-control,
+.block-onepagecheckout select,.block-onepagecheckout textarea{
+  border: 1px solid ETS_OPC_DESIGN_COLOR3;
+}
+.block-onepagecheckout span.ets_icon_scices.ets_icon_svg svg{
+    fill: ETS_OPC_DESIGN_COLOR3;
+}
+#form_ets_onepagecheckout input[type="checkbox"]{
+    border:1px solid ETS_OPC_DESIGN_COLOR3;
+}
+#form_ets_onepagecheckout .block-promo .promo-input {
+  border: 1px dashed ETS_OPC_DESIGN_COLOR3;
+}
+#form_ets_onepagecheckout i.ets_checkbox {
+    border: 1px solid ETS_OPC_DESIGN_COLOR3;
+}
+.btn.btn-touchspin.js-touchspin.js-increase-product-quantity.bootstrap-touchspin-up {
+  border: 1px solid ETS_OPC_DESIGN_COLOR3;
+}
+.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-touchspin-down {
+  border: 1px solid ETS_OPC_DESIGN_COLOR3;
+}
+.js-cart-line-product-quantity.form-control {
+  border: 1px solid ETS_OPC_DESIGN_COLOR3 !important;
+}
+.block-onepagecheckout .input-group .input-group-btn>.btn[data-action=show-password]:before {
+    color: ETS_OPC_DESIGN_COLOR3;
+}
+.input-group .input-group-btn button.btn.ets_password svg,
+.ets_opc_select span.ets_opc_select_arrow svg{
+    fill: ETS_OPC_DESIGN_COLOR3;
+}
+#form_ets_onepagecheckout .btn-primary:hover {
+  background-color: ETS_OPC_DESIGN_COLOR4!important;
+}
+#form_ets_onepagecheckout .btn-primary {
+    color: ETS_OPC_DESIGN_COLOR5;
+}
+#form_ets_onepagecheckout .btn-primary:not(.loading):hover {
+    color: ETS_OPC_DESIGN_COLOR6!important;
+}
+#ets_onepagecheckout a svg{
+    fill: ETS_OPC_DESIGN_COLOR7;
+}
+#ets_onepagecheckout a:hover svg{
+    fill: ETS_OPC_DESIGN_COLOR8;
+}
+#ets_onepagecheckout a{
+    color: ETS_OPC_DESIGN_COLOR7;
+}
+#ets_onepagecheckout a:hover,
+#ets_onepagecheckout button.add_new_address:hover{
+    color: ETS_OPC_DESIGN_COLOR8 !important;
+}
+.block-onepagecheckout .block-promo .promo-input{
+    background: ETS_OPC_DESIGN_COLOR9;
+}

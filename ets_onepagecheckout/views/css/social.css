@@ -1,0 +1,123 @@
+.opc_social_item i {
+    font-size: 12px;
+    line-height: 16px;
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    padding: 6px 2px;
+    height: 100%!important;
+    width: 24px;
+}
+.opc_social_btn svg {
+    width: 14px;
+    fill: #fff;
+    height: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.opc_social_btn .ets_svg_icon:before{
+    display: none;
+}
+.ets_svg_icon.nobe:before{
+    display:none!important;
+}
+.opc_social li.opc_social_item:hover {
+  opacity: 0.9;
+}
+.opc_social_form label {
+  color: #447d90;
+}
+ul.opc_social {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+.opc_social .opc_social_item {
+  background-image: none;
+  border-radius: 3px;
+  overflow: hidden;
+  display: inline-block;
+  list-style: outside none none;
+  cursor: pointer;
+  text-align: center;
+  min-width: 94px;
+  margin: 2px;
+}
+.opc_social_form {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.opc_social_item span.opc_social_btn {
+  padding: 0;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  font-size: 13px;
+  border-radius: 0;
+  cursor: pointer;
+  line-height: 28px;
+}
+.opc_social_item.facebook {
+    background-color: #4064ac;
+    color: #fff;
+}
+.opc_social_item.google {
+  background-color: #ea4133;
+  color: #fff;
+}
+.opc_social_item.paypal {
+  background-color: #0098db;
+  color: #fff;
+}
+.opc_social_form > label {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.opc_solo_or {
+    text-align: center;
+    margin: 20px 0 20px;
+    position: relative;
+    text-transform: none;
+    display: inline-block;
+    width: 350px;
+    max-width: 100%;
+    font-size: 12px;
+}
+
+.opc_solo_or:before {
+    background-color: #eeeeee;
+    content: "";
+    height: 1px;
+    left: 25px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+.opc_solo_or span {
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    padding: 0 5px;
+    line-height: 1;
+}
+.login-form ~ hr {
+    display: none;
+}
+.register-form .opc_solo_or {
+    width: 100%;
+    padding: 0;
+}
+.register-form .opc_solo_or:before {
+    left: 0;
+    right: 0;
+}
+.register-form .opc_social_form {
+    padding: 0;
+}

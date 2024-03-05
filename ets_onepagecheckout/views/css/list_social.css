@@ -1,0 +1,15 @@
+span.create_social.paypal svg {
+  background: #0098db none repeat scroll 0 0;
+}
+span.create_social.facebook svg{
+  background: #4064ac none repeat scroll 0 0;
+}
+span.create_social.google svg{
+  background: #ea4133 none repeat scroll 0 0;
+}
+span.create_social svg{
+    width: 14px;
+    fill: #fff;
+    border-radius: 3px;
+    padding: 1px;
+}
